@@ -1,0 +1,88 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .left-wrp a.theme-btn { 
+        padding: 0 15px;
+        font-size: 14px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .theme-btn { 
+        font-size: 15px;
+    }
+    .header h1 span { 
+        display: block;
+    }
+    .left-wrp.seconds.third{
+        margin-top: 30px;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .header h1 { 
+        font-size: 48px; 
+    }
+    .header h1 span{
+        display: block;
+        font-size: 45%;
+    }
+    .left-wrp h4 { 
+        flex-wrap: wrap;
+    }
+    .left-wrp a.theme-btn { 
+        margin-left: 0;
+        margin-right: auto;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .inp.first-inp {
+        display: block; 
+    }
+    .inp.first-inp input {
+        width: 100%;
+    }
+    .inp input, .inp textarea, .inp select {
+        height: 45px; 
+    }
+    .inp.first-inp select {
+        width: 100%;
+    }
+    .inp.bottom-inp {
+        display: block; 
+    }
+    .inp.bottom-inp input {
+        width: 100%;
+        margin: 0;
+    }
+    .inp.bottom-inp button.theme-btn.fr-btn {
+        width: 75%;
+    } 
+    .inp.bottom-inp button.theme-btn.fr-btn-add {
+        width: 23%;
+        padding: 0;
+        font-size: 50px;
+        position: relative;
+        top: 12px;
+    }
+    .btns .left-btns, .btns .middle-btns, .btns .right-btns {
+        margin-top: 5px;
+    }
+    .left-wrp.seconds.third{
+        margin-top: 30px;
+    }
+
+
+
+} 

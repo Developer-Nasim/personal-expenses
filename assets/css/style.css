@@ -297,5 +297,16 @@ textarea {
 .left-wrp.seconds.third{
   margin-top: 10px;
 }
-
+.alert button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: 700;
+  background: #fff;
+  width: 45px;
+  height: 45px;
+}
 

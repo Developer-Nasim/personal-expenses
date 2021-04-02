@@ -11,6 +11,22 @@
         padding: 0 15px;
         font-size: 14px;
     }
+    .other-blks .o_blks {
+        width: 155px;
+        height: 150px;
+     }
+     .main.prg span { 
+        font-size: 14px;
+    } 
+    table thead tr td svg {
+        margin-left: 0px;
+    }
+    table tbody tr td {
+        padding: 10px 5px; 
+        font-size: 13px;
+    }
+      
+
 
 }
 
@@ -82,6 +98,47 @@
     .left-wrp.seconds.third{
         margin-top: 30px;
     }
+    .main.prg {
+        display: block;
+        text-align: center;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .main.prg span.middle {
+        display: block;
+    }
+    
+    .main.prg span.right-cont {
+        position: unset;
+        display: block;
+    }
+    .other-blks {
+        flex-wrap: wrap;
+    }
+    .other-blks .o_blks {
+        width: 120px;
+        height: 120px; 
+        padding: 10px; 
+    }
+    .other-blks .o_blks h1 {
+        font-size: 37px; 
+        line-height: 25px;
+    }
+    .other-blks .o_blks p {
+        margin: 0;
+        color: #fff;
+        font-size: 13px;
+    }  
+    .wrp-tables table {
+        width: 700px;
+    }
+
+
+
+
+
+
 
 
 

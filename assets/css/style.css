@@ -1,4 +1,4 @@
-/*   Theme default css */
+ /*   Theme default css */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -388,6 +388,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .other-blks .o_blks h1 {
   font-size: 50px;
@@ -461,6 +462,7 @@ table tr td {
   justify-content: center;
   background: #ecf1f5;
   padding: 10px 0;
+  cursor: pointer;
 }
 
 .table-bottom span {
@@ -476,6 +478,10 @@ table tr td {
   width: 30px;
   height: 20px;
   fill: #5e8ac7;
+  transition: .3s;
+}
+.table-bottom.active span svg {
+  transform: rotate(180deg);
 }
 svg#ideee {
   fill: #5e8ac7;
@@ -483,8 +489,29 @@ svg#ideee {
 table thead tr td svg {
   margin-left: 10px;
 }
+ul.drpmenu {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  height: 0;
+}
+ul.drpmenu.active{
+  height: auto;
+}
+ul.drpmenu li {
+  display: block;
+}
 
-
+ul.drpmenu li a {
+  display: block;
+  width: 100%;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-left: 15px;
+  color: #0166c0;
+}
 
 
 
